@@ -16,7 +16,7 @@ const AddStudent = (props) => {
     member_name: "",
     member_email: "",
     member_age: null,
-    member_parentid: "",
+    // member_parentid: "",
   });
 
   const handleSubmit = async () => {
@@ -91,7 +91,7 @@ const AddStudent = (props) => {
                 }
               />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            {/* <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Member Parent Id</Form.Label>
               <Form.Control
                 type="text"
@@ -100,7 +100,7 @@ const AddStudent = (props) => {
                   setFormData({ ...formData, member_parentid: e.target.value })
                 }
               />
-            </Form.Group>
+            </Form.Group> */}
           </Form>
         </Modal.Body>
         <Modal.Footer style={{ display: "flex", justifyContent: "center" }}>
